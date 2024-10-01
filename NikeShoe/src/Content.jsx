@@ -32,7 +32,7 @@ return(
 
             </div>
         </div>
-        <div><img src={Shoe} alt="" /></div>
+        <div><img  className="shoe" src={Shoe} alt="" /></div>
     </div>
 )
 }

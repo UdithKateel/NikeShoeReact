@@ -5,7 +5,7 @@ import './Styles/Nav.css'
 const Nav=()=>{
 return (
     <nav>
-        <img src={nikelogo} alt="" />
+        <img className="nikelogo" src={nikelogo} alt="" />
         <ul>
             <li>Menu</li>
             <li>Location</li>
