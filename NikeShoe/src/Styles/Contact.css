@@ -1,0 +1,36 @@
+.btnsection {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap if they exceed container width */
+  justify-content: space-evenly; /* Space evenly between buttons */
+  align-items: center;
+  width: 100%; /* Full width of the container */
+}
+
+.ContactBtn {
+  background-color: black;
+  color: white;
+  width: calc(40% - 20px); /* Adjusted to leave space for margins and fit */
+  height: 40px;
+  padding: 1px;
+  border-radius: 5px;
+  margin: 5px 0; /* Vertical spacing */
+}
+
+.secondarybtn {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  width: 80%; /* Width for the third button */
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px auto; /* Centered and some vertical spacing */
+  text-align: center;
+}
+
+.btnicon {
+  margin-right: 10px;
+}
+
+.btntext {
+  font-size: 16px;
+}

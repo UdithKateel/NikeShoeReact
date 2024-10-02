@@ -32,3 +32,6 @@ button{
      height: fit-content;
     
 }
+li:hover{
+    cursor: pointer;
+}

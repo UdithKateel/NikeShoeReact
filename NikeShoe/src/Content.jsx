@@ -9,7 +9,7 @@ return(
     <div className="Contentmain">
         <div>
             <div className="textt">
-                       <h1>YOUR FEET <br />
+                       <h1 className="contenth1">YOUR FEET <br />
                         DESERVE <br />
                         THE BEST</h1>
              </div>
