@@ -2,7 +2,8 @@ import React from 'react'
 import './Styles/Contact.css'
 const Button = (props) => {
   return (
-    <button className={props.isOutline  ? 'secondarybtn' : 'ContactBtn'} >
+    <button onClick={props.handleclick}
+    className={props.isOutline  ? 'secondarybtn' : 'ContactBtn'} >
         <span className='btnicon'>
             {props.icon }
         </span>
